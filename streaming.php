@@ -132,7 +132,7 @@ if (isset($video['sources']) && !empty($video['sources'])) {
                                         <div class="anime_video_body_watch_items load">
                                             <div class="play-video">
                                                 <iframe
-                                                    src="<?=$base_url?>/player/v2.html?url=<?=$m3u8_url?>&download=<?=$anime['ep_download']?>"
+                                                    src="<?=https://player.anifuze.net/?id?url=<?=$m3u8_url?>&download=<?=$anime['ep_download']?>"
                                                     allowfullscreen="true" frameborder="0" marginwidth="0"
                                                     marginheight="0" scrolling="no"></iframe>
                                             </div>
@@ -163,7 +163,7 @@ if (isset($video['sources']) && !empty($video['sources'])) {
                                     <ul>
                                         <li class="anime">
                                             <a href="#" class="active" rel="1"
-                                                data-video="<?=$base_url?>/player/v2.html?url=<?=$m3u8_url?>&download=<?=$anime['ep_download']?>"><i
+                                                data-video="<?=https://player.anifuze.net/?id?url=<?=$m3u8_url?>&download=<?=$anime['ep_download']?>"><i
                                                     class="iconlayer-server hydrax"></i>No Ads<span>Choose this
                                                     server</span></a>
                                         </li>
